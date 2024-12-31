@@ -1,0 +1,33 @@
+1. Multidimensional arrays adalah struktur data yang menyimpan elemen dalam bentuk array dengan dua atau lebih dimensi. Ini memungkinkan representasi data yang lebih kompleks, seperti matriks atau tabel. 
+Contoh:
+
+int[][] twoDArray = new int[5][5]; // contoh array 2 dimensi
+int[][] matrix = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};
+
+
+2. Beberapa method string dalam Java:
+
+1. charAt(int index): Mengembalikan karakter pada indeks tertentu dalam string.
+2. length(): Mengembalikan panjang string.
+3. substring(int beginIndex): Mengembalikan substring yang dimulai dari indeks tertentu.
+4. contains(CharSequence s): Mengecek apakah string mengandung urutan karakter tertentu.
+5. concat(String str): Menggabungkan string dengan string lain.
+6. replace(char oldChar, char newChar): Mengganti semua kemunculan karakter lama dengan karakter baru.
+7. split(String regex): Membagi string menjadi array substring berdasarkan ekspresi reguler.
+8. toLowerCase(): Mengubah semua karakter dalam string menjadi huruf kecil.
+9. toUpperCase(): Mengubah semua karakter dalam string menjadi huruf besar.
+10. startsWith(String prefix): Memeriksa apakah string dimulai dengan prefix tertentu.
+11. endsWith(String suffix): Memeriksa apakah string diakhiri dengan suffix tertentu.
+12. indexOf(String str): Mengembalikan indeks pertama dari substring yang dicari.
+13. trim(): Menghapus spasi di awal dan akhir string.
+14. isEmpty(): Memeriksa apakah string kosong. 
+
+3. Keuntungan Immutability dalam Java:
+
+- Keamanan: Karena objek tidak dapat diubah setelah dibuat, mereka aman dari perubahan yang tidak diinginkan. Ini sangat berguna dalam lingkungan multithreading.
+
+- Simplicity: Objek yang tidak dapat diubah lebih mudah untuk dibuat, diuji, dan digunakan karena mereka tidak dapat berubah setelah dibuat.
+
+- Thread Safety: Objek yang tidak dapat diubah aman untuk digunakan dalam lingkungan multithread, karena tidak ada kebutuhan untuk mengatur sinkronisasi antara beberapa thread yang mengaksesnya.
+
+- Konsistensi: Karena nilai objek tidak dapat diubah setelah pembuatan, penggunaannya lebih konsisten dan dapat diandalkan di seluruh aplikasi. Hal ini dapat mengurangi kesalahan dan mempermudah pemeliharaan kode.
